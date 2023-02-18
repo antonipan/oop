@@ -35,8 +35,10 @@ public class Magician {
     public int Attack() {
         int damage = Magician.r.nextInt(20, 30);
         this.mana -= (int)(damage * 0.8);
-        if (mana < 0) return 0;
-        else return damage;
+        if (mana < 0)
+            return 0;
+        else
+            return damage;
     }
 
     public String getInfo() {
