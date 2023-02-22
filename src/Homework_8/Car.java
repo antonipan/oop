@@ -61,7 +61,6 @@ public class Car {
         this.color = color;
         this.startcar = false;
         this.ball = 0;
-
     }
 
     public Car() {

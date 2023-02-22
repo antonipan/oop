@@ -45,37 +45,37 @@ public class Program {
         // // BaseHero hero = new BaseHero();
         // // System.out.println(hero.getInfo());
         // // ToDo BaseHero
-        // Priest priest = new Priest();
-        // System.out.println(priest.getInfo());
-        // Druid druid = new Druid();
-        // System.out.println(druid.getInfo());
-        // Magician magician = new Magician();
-        // System.out.println(magician.getInfo());
+         Priest priest = new Priest();
+         System.out.println(priest.getInfo());
+         Druid druid = new Druid();
+         System.out.println(druid.getInfo());
+         Magician magician = new Magician();
+         System.out.println(magician.getInfo());
 
-        // priest.attack(magician);
-        // System.out.println(magician.getInfo());
-        // priest.attack(magician);
-        // System.out.println(magician.getInfo());
-        // druid.healing(magician);
-        // System.out.println(magician.getInfo());
-        // druid.healing(magician);
-        // System.out.println(magician.getInfo());
-        // druid.healing(magician);
-        // System.out.println(magician.getInfo());
-        // druid.healing(magician);
-        // System.out.println(magician.getInfo());
-        // druid.healing(magician);
-        // System.out.println(magician.getInfo());
+         priest.attack(magician);
+         System.out.println(magician.getInfo());
+         priest.attack(magician);
+         System.out.println(magician.getInfo());
+         druid.healing(magician);
+         System.out.println(magician.getInfo());
+         druid.healing(magician);
+         System.out.println(magician.getInfo());
+         druid.healing(magician);
+         System.out.println(magician.getInfo());
+         druid.healing(magician);
+         System.out.println(magician.getInfo());
+         druid.healing(magician);
+         System.out.println(magician.getInfo());
 
         // #endregion
 
         // #region
-        BaseHero dh = new Druid();
-        /*BaseHero*/
-        Dwarf dwarf = new Dwarf();
-        //dwarf.dwarf_method();
-        //((Dwarf)dwarf).dwarf_method();
-        System.out.println(dwarf.name);
+//        BaseHero dh = new Druid();
+//        /*BaseHero*/
+//        Dwarf dwarf = new Dwarf();
+//        //dwarf.dwarf_method();
+//        //((Dwarf)dwarf).dwarf_method();
+//        System.out.println(dwarf.name);
         // #endregion
     }
 }
