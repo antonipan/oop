@@ -37,5 +37,6 @@ public class Program {
         west.getExpluatation();
         west.setCrash();
 
+
     }
 }

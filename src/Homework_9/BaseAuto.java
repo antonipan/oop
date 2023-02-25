@@ -7,7 +7,7 @@ import java.util.Random;
 /**
  * Базовый класс для автомобилей
  */
-public class BaseAuto {
+public abstract class BaseAuto {
     public static int count;
     public static Random r;
 
