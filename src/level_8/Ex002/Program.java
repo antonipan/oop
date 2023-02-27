@@ -26,7 +26,6 @@ public class Program {
                     teams.add(new Druid());
                     break;
                 default:
-                    teams.add(new BaseHero());
                     break;
             }
             System.out.println(teams.get(i).getInfo());
@@ -37,8 +36,6 @@ public class Program {
         // #endregion
         // #region
 
-        BaseHero hero = new BaseHero();
-        System.out.println(hero.getInfo());
         Priest priest = new Priest();
         System.out.println(priest.getInfo());
         Druid druid = new Druid();

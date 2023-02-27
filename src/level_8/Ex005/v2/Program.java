@@ -40,7 +40,7 @@ public class Program {
         team2.add(new Paladin());
         team2.add(new Knight());
 
-        team2.get(0).attack(null);
+        team2.get(0).attack(team1.get(0));
 
         List<Healer> team3 = new ArrayList<>();
         //team2.add(new Paladin());

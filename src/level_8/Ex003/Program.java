@@ -47,7 +47,7 @@ public class Program {
         // // ToDo BaseHero
          Priest priest = new Priest();
          System.out.println(priest.getInfo());
-         Druid druid = new Druid();
+         BaseHero druid = new Druid();
          System.out.println(druid.getInfo());
          Magician magician = new Magician();
          System.out.println(magician.getInfo());
@@ -56,16 +56,17 @@ public class Program {
          System.out.println(magician.getInfo());
          priest.attack(magician);
          System.out.println(magician.getInfo());
-         druid.healing(magician);
+         ((Druid) druid).healing(magician);
          System.out.println(magician.getInfo());
-         druid.healing(magician);
-         System.out.println(magician.getInfo());
-         druid.healing(magician);
-         System.out.println(magician.getInfo());
-         druid.healing(magician);
-         System.out.println(magician.getInfo());
-         druid.healing(magician);
-         System.out.println(magician.getInfo());
+//         druid.healing(magician);
+//         System.out.println(magician.getInfo());
+//         druid.healing(magician);
+//         System.out.println(magician.getInfo());
+//         druid.healing(magician);
+//         System.out.println(magician.getInfo());
+//         druid.healing(magician);
+//         System.out.println(magician.getInfo());
+
 
         // #endregion
 
